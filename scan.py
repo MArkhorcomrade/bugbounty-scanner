@@ -4,9 +4,12 @@ from datetime import datetime
 with open("programs.yaml") as f:
     data = yaml.safe_load(f)
 
-programs = data.get("programs", [])  # safely get programs list
+programs = data.get("programs", [])
+dorks = data.get("dorks", [])
 
 results = []
+
+# Scan program URLs
 for p in programs:
     try:
         r = requests.get(p["url"], timeout=10)
@@ -23,8 +26,10 @@ for p in programs:
             "error": str(e)
         })
 
+# Save results (with dorks included for reference)
 with open("results.json", "w") as f:
     json.dump({
         "last_run": datetime.utcnow().isoformat(),
-        "results": results
+        "results": results,
+        "dorks": dorks
     }, f, indent=2)
