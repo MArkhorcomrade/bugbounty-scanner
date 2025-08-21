@@ -6,12 +6,14 @@ programs:
     url: https://companyxyz.com/bug-bounty
 
 dorks:
+  - "inurl:/bug-bounty"
   - "inurl:/responsible-disclosure"
   - "inurl:/vulnerability-disclosure"
   - "inurl:/security.txt"
   - "\"bug bounty\" \"responsible disclosure\""
   - "\"vulnerability disclosure program\""
   - "filetype:txt \"security contact\""
+  - "inurl:/bugbounty"
   - "inurl:/bug_bounty"
   - "inurl:/security/bug-bounty"
   - "inurl:/security-bounty"
