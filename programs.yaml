@@ -13,93 +13,93 @@ dorks:
   - '"bug bounty" "responsible disclosure"'
   - '"vulnerability disclosure program"'
   - 'filetype:txt "security contact"'
-  - inurl:"/bug-bounty"
-  - inurl:"/bugbounty"
-  - inurl:"/bug_bounty"
-  - inurl:"/security/bug-bounty"
-  - inurl:"/security-bounty"
-  - inurl:"/security/bugbounty"
-  - inurl:"/responsible-disclosure"
-  - inurl:"/responsible_disclosure"
-  - inurl:"/responsibledisclosure"
-  - inurl:"/security/responsible-disclosure"
-  - inurl:"/legal/responsible-disclosure"
-  - "responsible disclosure" site:.com
-  - "responsible disclosure" site:.org
-  - "responsible disclosure" site:.net
-  - inurl:"/vulnerability-disclosure"
-  - inurl:"/vulnerability_disclosure"
-  - inurl:"/vulnerabilitydisclosure"
-  - inurl:"/security/vulnerability-disclosure"
-  - "vulnerability disclosure" site:.com
-  - "vulnerability disclosure program"
-  - "vulnerability disclosure" intitle:security
-  - "vulnerability disclosure" inurl:security
-  - inurl:"/security.txt"
-  - inurl:"/.well-known/security.txt"
-  - filetype:txt "Contact:" "security.txt"
-  - "security.txt" "hall of fame"
-  - "security.txt" "bug bounty"
-  - inurl:"/security-policy"
-  - inurl:"/security_policy"
-  - inurl:"/disclosure-policy"
-  - inurl:"/disclosure_policy"
-  - inurl:"/vulnerability-policy"
-  - intitle:"security policy" inurl:security
-  - intitle:"disclosure policy" inurl:security
-  - intitle:"coordinated vulnerability disclosure"
-  - "bug bounty" site:.gov
-  - "bug bounty" site:.mil
-  - "bug bounty" site:.edu
-  - "bug bounty program" intitle:security
-  - "bug bounty program" inurl:security
-  - "bug bounty reward"
-  - "report a vulnerability" "bug bounty"
-  - "found a security vulnerability" "bug bounty"
-  - "report security issue" "responsible disclosure"
-  - "report security bug" "responsible disclosure"
-  - "security vulnerability" "responsible disclosure"
-  - "coordinated vulnerability disclosure" site:.com
-  - "safe harbor" "bug bounty"
-  - "safe harbor" "vulnerability disclosure"
-  - inurl:"/thanks"
-  - inurl:"/security-thanks"
-  - inurl:"/security/thanks"
-  - inurl:"/credits"
-  - inurl:"/security-credits"
-  - "security researcher acknowledgements"
-  - "bug bounty acknowledgements"
-  - "we would like to thank the following researchers"
-  - inurl:"/report-a-vulnerability"
-  - inurl:"/report-vulnerability"
-  - inurl:"/report-security-issue"
-  - inurl:"/security-issue-report"
-  - inurl:"/security-report"
-  - intitle:"report a vulnerability"
-  - intitle:"report security vulnerability"
-  - intitle:"report a security issue"
-  - filetype:txt "security contact"
-  - filetype:txt "bug bounty"
-  - filetype:txt "responsible disclosure"
-  - filetype:txt "vulnerability disclosure"
-  - filetype:txt "hall of fame"
-  - filetype:txt "coordinated vulnerability disclosure"
-  - "report a bug" "security team"
-  - "report a bug" "vulnerability disclosure"
-  - "report a bug" "bug bounty"
-  - "report security issue" site:.com
-  - "found a vulnerability" site:.com
-  - "responsible disclosure program" site:.org
-  - "security reward program"
-  - "security researcher rewards"
-  - "bug bounty" site:.io
-  - "bug bounty" site:.ai
-  - "bug bounty" site:.in
-  - "bug bounty" site:.sg
-  - "bug bounty" site:.jp
-  - "responsible disclosure" site:.nl
-  - "responsible disclosure" site:.de
-  - "responsible disclosure" site:.fr
-  - "responsible disclosure" site:.uk
-  - "vulnerability disclosure" site:.au
-  - "vulnerability disclosure" site:.ca
+  - 'inurl:"/bug-bounty"'
+  - 'inurl:"/bugbounty"'
+  - 'inurl:"/bug_bounty"'
+  - 'inurl:"/security/bug-bounty"'
+  - 'inurl:"/security-bounty"'
+  - 'inurl:"/security/bugbounty"'
+  - 'inurl:"/responsible-disclosure"'
+  - 'inurl:"/responsible_disclosure"'
+  - 'inurl:"/responsibledisclosure"'
+  - 'inurl:"/security/responsible-disclosure"'
+  - 'inurl:"/legal/responsible-disclosure"'
+  - '"responsible disclosure" site:.com'
+  - '"responsible disclosure" site:.org'
+  - '"responsible disclosure" site:.net'
+  - 'inurl:"/vulnerability-disclosure"'
+  - 'inurl:"/vulnerability_disclosure"'
+  - 'inurl:"/vulnerabilitydisclosure"'
+  - 'inurl:"/security/vulnerability-disclosure"'
+  - '"vulnerability disclosure" site:.com'
+  - '"vulnerability disclosure program"'
+  - '"vulnerability disclosure" intitle:security'
+  - '"vulnerability disclosure" inurl:security'
+  - 'inurl:"/security.txt"'
+  - 'inurl:"/.well-known/security.txt"'
+  - 'filetype:txt "Contact:" "security.txt"'
+  - '"security.txt" "hall of fame"'
+  - '"security.txt" "bug bounty"'
+  - 'inurl:"/security-policy"'
+  - 'inurl:"/security_policy"'
+  - 'inurl:"/disclosure-policy"'
+  - 'inurl:"/disclosure_policy"'
+  - 'inurl:"/vulnerability-policy"'
+  - 'intitle:"security policy" inurl:security'
+  - 'intitle:"disclosure policy" inurl:security'
+  - 'intitle:"coordinated vulnerability disclosure"'
+  - '"bug bounty" site:.gov'
+  - '"bug bounty" site:.mil'
+  - '"bug bounty" site:.edu'
+  - '"bug bounty program" intitle:security'
+  - '"bug bounty program" inurl:security'
+  - '"bug bounty reward"'
+  - '"report a vulnerability" "bug bounty"'
+  - '"found a security vulnerability" "bug bounty"'
+  - '"report security issue" "responsible disclosure"'
+  - '"report security bug" "responsible disclosure"'
+  - '"security vulnerability" "responsible disclosure"'
+  - '"coordinated vulnerability disclosure" site:.com'
+  - '"safe harbor" "bug bounty"'
+  - '"safe harbor" "vulnerability disclosure"'
+  - 'inurl:"/thanks"'
+  - 'inurl:"/security-thanks"'
+  - 'inurl:"/security/thanks"'
+  - 'inurl:"/credits"'
+  - 'inurl:"/security-credits"'
+  - '"security researcher acknowledgements"'
+  - '"bug bounty acknowledgements"'
+  - '"we would like to thank the following researchers"'
+  - 'inurl:"/report-a-vulnerability"'
+  - 'inurl:"/report-vulnerability"'
+  - 'inurl:"/report-security-issue"'
+  - 'inurl:"/security-issue-report"'
+  - 'inurl:"/security-report"'
+  - 'intitle:"report a vulnerability"'
+  - 'intitle:"report security vulnerability"'
+  - 'intitle:"report a security issue"'
+  - 'filetype:txt "security contact"'
+  - 'filetype:txt "bug bounty"'
+  - 'filetype:txt "responsible disclosure"'
+  - 'filetype:txt "vulnerability disclosure"'
+  - 'filetype:txt "hall of fame"'
+  - 'filetype:txt "coordinated vulnerability disclosure"'
+  - '"report a bug" "security team"'
+  - '"report a bug" "vulnerability disclosure"'
+  - '"report a bug" "bug bounty"'
+  - '"report security issue" site:.com'
+  - '"found a vulnerability" site:.com'
+  - '"responsible disclosure program" site:.org'
+  - '"security reward program"'
+  - '"security researcher rewards"'
+  - '"bug bounty" site:.io'
+  - '"bug bounty" site:.ai'
+  - '"bug bounty" site:.in'
+  - '"bug bounty" site:.sg'
+  - '"bug bounty" site:.jp'
+  - '"responsible disclosure" site:.nl'
+  - '"responsible disclosure" site:.de'
+  - '"responsible disclosure" site:.fr'
+  - '"responsible disclosure" site:.uk'
+  - '"vulnerability disclosure" site:.au'
+  - '"vulnerability disclosure" site:.ca'
