@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bug Bounty Programs Scan</title>
+</head>
+<body>
+  <h1>Daily Bug Bounty Program Scan</h1>
+  <div id="output"></div>
+  <script>
+    fetch("results.json")
+      .then(r => r.json())
+      .then(data => {
+        let out = `<p>Last run: ${data.last_run}</p><ul>`;
+        data.results.forEach(p => {
+          out += `<li><strong>${p.name}</strong> - 
+            <a href="${p.url}">${p.url}</a> - 
+            ${p.status || p.error}</li>`;
+        });
+        out += "</ul>";
+        document.getElementById("output").innerHTML = out;
+      });
+  </script>
+</body>
+</html>
