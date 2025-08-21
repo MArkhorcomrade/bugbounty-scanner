@@ -25,7 +25,10 @@ jobs:
 
       - name: Extract SEARCH_ONLY dorks and get URLs
         run: python search_dorks.py
-
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install googlesearch-python
       - name: Commit results
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
