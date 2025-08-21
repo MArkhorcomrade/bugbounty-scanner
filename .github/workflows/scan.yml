@@ -1,27 +1,32 @@
-name: Daily Bug Bounty Scan
+name: Bug Bounty Scanner
 
 on:
-  workflow_dispatch:   # adds "Run workflow" button
   schedule:
-    - cron: "0 6 * * *"   # runs every day at 06:00 UTC
+    - cron: "0 7 * * *"  # runs every day at 7AM UTC
+  workflow_dispatch:      # allow manual trigger too
 
 jobs:
   scan:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Setup Python
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.x"
+          python-version: "3.10"
+
       - name: Install dependencies
         run: pip install -r requirements.txt
+
       - name: Run scan
         run: python scan.py
+
       - name: Commit results
         run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'actions@github.com'
-          git add results.json
-          git commit -m "Daily scan: $(date)"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions"
+          git add -A
+          git commit -m "update scan results" || echo "No changes to commit"
           git push
