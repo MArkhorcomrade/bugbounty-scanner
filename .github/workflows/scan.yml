@@ -23,6 +23,9 @@ jobs:
       - name: Run scan
         run: python scan.py
 
+      - name: Extract SEARCH_ONLY dorks and get URLs
+        run: python search_dorks.py
+
       - name: Commit results
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
