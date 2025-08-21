@@ -1,10 +1,9 @@
-# .github/workflows/scan.yml
 name: Daily Bug Bounty Scan
 
 on:
+  workflow_dispatch:   # adds "Run workflow" button
   schedule:
     - cron: "0 6 * * *"   # runs every day at 06:00 UTC
-  workflow_dispatch:
 
 jobs:
   scan:
