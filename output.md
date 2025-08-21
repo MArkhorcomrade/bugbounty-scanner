@@ -1,1 +1,93 @@
+# Bug Bounty Scanner Results
 
+- **ExampleCorp** → https://example.com/security.txt → `404`
+- **CompanyXYZ** → https://companyxyz.com/bug-bounty → `200`
+- **DORK** → inurl:/bug-bounty → `SEARCH_ONLY`
+- **DORK** → inurl:/responsible-disclosure → `SEARCH_ONLY`
+- **DORK** → inurl:/vulnerability-disclosure → `SEARCH_ONLY`
+- **DORK** → inurl:/security.txt → `SEARCH_ONLY`
+- **DORK** → "bug bounty" "responsible disclosure" → `SEARCH_ONLY`
+- **DORK** → "vulnerability disclosure program" → `SEARCH_ONLY`
+- **DORK** → filetype:txt "security contact" → `SEARCH_ONLY`
+- **DORK** → inurl:/bugbounty → `SEARCH_ONLY`
+- **DORK** → inurl:/bug_bounty → `SEARCH_ONLY`
+- **DORK** → inurl:/security/bug-bounty → `SEARCH_ONLY`
+- **DORK** → inurl:/security-bounty → `SEARCH_ONLY`
+- **DORK** → inurl:/security/bugbounty → `SEARCH_ONLY`
+- **DORK** → inurl:/responsible_disclosure → `SEARCH_ONLY`
+- **DORK** → inurl:/responsibledisclosure → `SEARCH_ONLY`
+- **DORK** → inurl:/security/responsible-disclosure → `SEARCH_ONLY`
+- **DORK** → inurl:/legal/responsible-disclosure → `SEARCH_ONLY`
+- **DORK** → "responsible disclosure" site:.com → `SEARCH_ONLY`
+- **DORK** → "responsible disclosure" site:.org → `SEARCH_ONLY`
+- **DORK** → "responsible disclosure" site:.net → `SEARCH_ONLY`
+- **DORK** → inurl:/vulnerability_disclosure → `SEARCH_ONLY`
+- **DORK** → inurl:/vulnerabilitydisclosure → `SEARCH_ONLY`
+- **DORK** → inurl:/security/vulnerability-disclosure → `SEARCH_ONLY`
+- **DORK** → "vulnerability disclosure" site:.com → `SEARCH_ONLY`
+- **DORK** → "vulnerability disclosure program" → `SEARCH_ONLY`
+- **DORK** → "vulnerability disclosure" intitle:security → `SEARCH_ONLY`
+- **DORK** → "vulnerability disclosure" inurl:security → `SEARCH_ONLY`
+- **DORK** → inurl:/.well-known/security.txt → `SEARCH_ONLY`
+- **DORK** → filetype:txt "Contact:" "security.txt" → `SEARCH_ONLY`
+- **DORK** → "security.txt" "hall of fame" → `SEARCH_ONLY`
+- **DORK** → "security.txt" "bug bounty" → `SEARCH_ONLY`
+- **DORK** → inurl:/security-policy → `SEARCH_ONLY`
+- **DORK** → inurl:/disclosure-policy → `SEARCH_ONLY`
+- **DORK** → inurl:/vulnerability-policy → `SEARCH_ONLY`
+- **DORK** → intitle:"security policy" inurl:security → `SEARCH_ONLY`
+- **DORK** → intitle:"disclosure policy" inurl:security → `SEARCH_ONLY`
+- **DORK** → intitle:"coordinated vulnerability disclosure" → `SEARCH_ONLY`
+- **DORK** → "bug bounty" site:.gov → `SEARCH_ONLY`
+- **DORK** → "bug bounty" site:.mil → `SEARCH_ONLY`
+- **DORK** → "bug bounty" site:.edu → `SEARCH_ONLY`
+- **DORK** → "bug bounty program" intitle:security → `SEARCH_ONLY`
+- **DORK** → "bug bounty program" inurl:security → `SEARCH_ONLY`
+- **DORK** → "bug bounty reward" → `SEARCH_ONLY`
+- **DORK** → "report a vulnerability" "bug bounty" → `SEARCH_ONLY`
+- **DORK** → "found a security vulnerability" "bug bounty" → `SEARCH_ONLY`
+- **DORK** → "report security issue" "responsible disclosure" → `SEARCH_ONLY`
+- **DORK** → "security vulnerability" "responsible disclosure" → `SEARCH_ONLY`
+- **DORK** → "coordinated vulnerability disclosure" site:.com → `SEARCH_ONLY`
+- **DORK** → "safe harbor" "bug bounty" → `SEARCH_ONLY`
+- **DORK** → "safe harbor" "vulnerability disclosure" → `SEARCH_ONLY`
+- **DORK** → inurl:/thanks → `SEARCH_ONLY`
+- **DORK** → inurl:/security-thanks → `SEARCH_ONLY`
+- **DORK** → inurl:/security/thanks → `SEARCH_ONLY`
+- **DORK** → inurl:/credits → `SEARCH_ONLY`
+- **DORK** → inurl:/security-credits → `SEARCH_ONLY`
+- **DORK** → "security researcher acknowledgements" → `SEARCH_ONLY`
+- **DORK** → "bug bounty acknowledgements" → `SEARCH_ONLY`
+- **DORK** → "we would like to thank the following researchers" → `SEARCH_ONLY`
+- **DORK** → inurl:/report-a-vulnerability → `SEARCH_ONLY`
+- **DORK** → inurl:/report-vulnerability → `SEARCH_ONLY`
+- **DORK** → inurl:/report-security-issue → `SEARCH_ONLY`
+- **DORK** → inurl:/security-issue-report → `SEARCH_ONLY`
+- **DORK** → inurl:/security-report → `SEARCH_ONLY`
+- **DORK** → intitle:"report a vulnerability" → `SEARCH_ONLY`
+- **DORK** → intitle:"report security vulnerability" → `SEARCH_ONLY`
+- **DORK** → intitle:"report a security issue" → `SEARCH_ONLY`
+- **DORK** → filetype:txt "bug bounty" → `SEARCH_ONLY`
+- **DORK** → filetype:txt "responsible disclosure" → `SEARCH_ONLY`
+- **DORK** → filetype:txt "vulnerability disclosure" → `SEARCH_ONLY`
+- **DORK** → filetype:txt "hall of fame" → `SEARCH_ONLY`
+- **DORK** → filetype:txt "coordinated vulnerability disclosure" → `SEARCH_ONLY`
+- **DORK** → "report a bug" "security team" → `SEARCH_ONLY`
+- **DORK** → "report a bug" "vulnerability disclosure" → `SEARCH_ONLY`
+- **DORK** → "report a bug" "bug bounty" → `SEARCH_ONLY`
+- **DORK** → "report security issue" site:.com → `SEARCH_ONLY`
+- **DORK** → "found a vulnerability" site:.com → `SEARCH_ONLY`
+- **DORK** → "responsible disclosure program" site:.org → `SEARCH_ONLY`
+- **DORK** → "security reward program" → `SEARCH_ONLY`
+- **DORK** → "security researcher rewards" → `SEARCH_ONLY`
+- **DORK** → "bug bounty" site:.io → `SEARCH_ONLY`
+- **DORK** → "bug bounty" site:.ai → `SEARCH_ONLY`
+- **DORK** → "bug bounty" site:.in → `SEARCH_ONLY`
+- **DORK** → "bug bounty" site:.sg → `SEARCH_ONLY`
+- **DORK** → "bug bounty" site:.jp → `SEARCH_ONLY`
+- **DORK** → "responsible disclosure" site:.nl → `SEARCH_ONLY`
+- **DORK** → "responsible disclosure" site:.de → `SEARCH_ONLY`
+- **DORK** → "responsible disclosure" site:.fr → `SEARCH_ONLY`
+- **DORK** → "responsible disclosure" site:.uk → `SEARCH_ONLY`
+- **DORK** → "vulnerability disclosure" site:.au → `SEARCH_ONLY`
+- **DORK** → "vulnerability disclosure" site:.ca → `SEARCH_ONLY`
