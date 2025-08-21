@@ -2,7 +2,9 @@ import requests, yaml, json
 from datetime import datetime
 
 with open("programs.yaml") as f:
-    programs = yaml.safe_load(f)["programs"]
+    data = yaml.safe_load(f)
+
+programs = data.get("programs", [])  # safely get programs list
 
 results = []
 for p in programs:
@@ -12,7 +14,7 @@ for p in programs:
             "name": p["name"],
             "url": p["url"],
             "status": r.status_code,
-            "content_snippet": r.text[:200]  # first 200 chars
+            "content_snippet": r.text[:200]
         })
     except Exception as e:
         results.append({
