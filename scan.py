@@ -1,35 +1,28 @@
-import requests, yaml, json
-from datetime import datetime
+import yaml
+import requests
 
-with open("programs.yaml") as f:
-    data = yaml.safe_load(f)
+with open("programs.yaml", "r") as f:
+    config = yaml.safe_load(f)
 
-programs = data.get("programs", [])
-dorks = data.get("dorks", [])
+programs = config["programs"]
+dorks = config["dorks"]
 
 results = []
 
-# Scan program URLs
+# Scan URLs from programs
 for p in programs:
     try:
         r = requests.get(p["url"], timeout=10)
-        results.append({
-            "name": p["name"],
-            "url": p["url"],
-            "status": r.status_code,
-            "content_snippet": r.text[:200]
-        })
+        results.append({"program": p["name"], "url": p["url"], "status": r.status_code})
     except Exception as e:
-        results.append({
-            "name": p["name"],
-            "url": p["url"],
-            "error": str(e)
-        })
+        results.append({"program": p["name"], "url": p["url"], "status": str(e)})
 
-# Save results (with dorks included for reference)
-with open("results.json", "w") as f:
-    json.dump({
-        "last_run": datetime.utcnow().isoformat(),
-        "results": results,
-        "dorks": dorks
-    }, f, indent=2)
+# Add dorks to results (not executed, just listed for now)
+for d in dorks:
+    results.append({"program": "DORK", "url": d, "status": "SEARCH_ONLY"})
+
+# Save results
+with open("output.md", "w") as f:
+    f.write("# Bug Bounty Scanner Results\n\n")
+    for r in results:
+        f.write(f"- **{r['program']}** → {r['url']} → `{r['status']}`\n")
