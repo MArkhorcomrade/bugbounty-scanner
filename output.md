@@ -1,7 +1,5 @@
 # Bug Bounty Scanner Results
 
-- **ExampleCorp** → https://example.com/security.txt → `404`
-- **CompanyXYZ** → https://companyxyz.com/bug-bounty → `200`
 - **DORK** → inurl:/bug-bounty → `SEARCH_ONLY`
 - **DORK** → inurl:/responsible-disclosure → `SEARCH_ONLY`
 - **DORK** → inurl:/vulnerability-disclosure → `SEARCH_ONLY`
