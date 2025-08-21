@@ -1,23 +1,16 @@
 import yaml
 import requests
 
+# Load YAML config
 with open("programs.yaml", "r") as f:
     config = yaml.safe_load(f)
 
-programs = config["programs"]
-dorks = config["dorks"]
+# Only get dorks now
+dorks = config.get("dorks", [])
 
 results = []
 
-# Scan URLs from programs
-for p in programs:
-    try:
-        r = requests.get(p["url"], timeout=10)
-        results.append({"program": p["name"], "url": p["url"], "status": r.status_code})
-    except Exception as e:
-        results.append({"program": p["name"], "url": p["url"], "status": str(e)})
-
-# Add dorks to results (not executed, just listed for now)
+# Add dorks to results (SEARCH_ONLY for now)
 for d in dorks:
     results.append({"program": "DORK", "url": d, "status": "SEARCH_ONLY"})
 
