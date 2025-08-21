@@ -1,30 +1,32 @@
 from googlesearch import search
 
-# List of your dorks (example subset, you can paste all)
-dorks = [
-    'inurl:/bug-bounty site:.com',
-    'inurl:/responsible-disclosure site:.com',
-    'inurl:/vulnerability-disclosure site:.com',
-    'filetype:txt "security contact" site:.com',
-    '"bug bounty" site:.gov',
-    '"vulnerability disclosure" intitle:security site:.org'
-]
+# Input and output files
+input_file = "output.md"
+output_file = "dork_results.txt"
 
-# Number of results per dork
-num_results = 5
+# Read the file and extract lines with SEARCH_ONLY
+with open(input_file, "r", encoding="utf-8") as f:
+    lines = f.readlines()
 
-output_file = 'dork_results.txt'
+dorks = []
+for line in lines:
+    if "`SEARCH_ONLY`" in line:
+        # Extract the dork between → and `SEARCH_ONLY`
+        parts = line.split("→")
+        if len(parts) >= 2:
+            dork = parts[1].replace("`SEARCH_ONLY`", "").strip()
+            dorks.append(dork)
 
-with open(output_file, 'w') as f:
+# Open the output file
+with open(output_file, "w", encoding="utf-8") as out:
     for dork in dorks:
-        f.write(f"\nDORK: {dork}\n")
-        f.write("="*50 + "\n")
+        out.write(f"Dork: {dork}\n")
         try:
-            results = search(dork, num_results=num_results, lang='en')
-            for url in results:
-                f.write(url + "\n")
+            # Search Google for each dork, limit to first 5 results
+            for url in search(dork, num_results=5):
+                out.write(f"  {url}\n")
         except Exception as e:
-            f.write(f"Error searching {dork}: {e}\n")
-        f.write("\n")
+            out.write(f"  Error: {e}\n")
+        out.write("\n")
 
-print(f"Search complete! Results saved in {output_file}")
+print(f"Finished! Results saved in {output_file}")
