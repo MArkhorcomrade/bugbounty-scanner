@@ -57,181 +57,182 @@ Dork: filetype:txt "Contact:" "security.txt"
 Dork: "security.txt" "hall of fame"
 
 Dork: "security.txt" "bug bounty"
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522security.txt%2522%2B%2522bug%2Bbounty%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGKjooscGIjAoMEyjgJR9mZGFY0-xEf-lB-FoiRUwLA-LHHdvicrZJlon7hCssnA39wwFWkxYOcYyAnJSWgFD
 
 Dork: inurl:/security-policy
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dinurl%253A%252Fsecurity-policy%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGK3FnccGIjDSSvY95ngDTxpXDWKMCW8N2_hILbPjCn-7Voy0yTKzh72ZiwfkpXnC3drZb9HKVmwyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dinurl%253A%252Fsecurity-policy%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGKnooscGIjCKd_4qRsR4B-Hh3IktuVGeft7y4iwET49xto39axVjfCC-aiKPdG8BWQFxQ0zUPIUyAnJSWgFD
 
 Dork: inurl:/disclosure-policy
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dinurl%253A%252Fdisclosure-policy%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGK3FnccGIjCCWtoDuXLr0plmm2bWJ0ON5vShQSmwxdYnu0vl0BEja4efrFxuiBsT8hdis6pxHuIyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dinurl%253A%252Fdisclosure-policy%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGKnooscGIjBgYAsoy8V-YAqCO1nEUGE-sy_BdlxOsAH0s6mcC7Aafoo_IS6wmXtz9fsUa1hbFfoyAnJSWgFD
 
 Dork: inurl:/vulnerability-policy
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dinurl%253A%252Fvulnerability-policy%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGK7FnccGIjB8lUvt9DDAMdwTl5NCrEHYv9psmqyekxA1GbZMYyns99QaIL5Ww-EtpVewKcem6JMyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dinurl%253A%252Fvulnerability-policy%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGKrooscGIjCYGBgZs4o8z39zQvPnFRgu-i86jxmf-Gm68Cno4skdVLGLXKtjcMudXmlGk6eodK4yAnJSWgFD
 
 Dork: intitle:"security policy" inurl:security
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dintitle%253A%2522security%2Bpolicy%2522%2Binurl%253Asecurity%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGK7FnccGIjAuRRNynG5XTSgF8WpUtwY6n043dmRrYfiEi_b3C4F9f7B5uBGcSZMCfQ8yW0lP1FwyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dintitle%253A%2522security%2Bpolicy%2522%2Binurl%253Asecurity%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGKrooscGIjCBZqDntKy_aGaSikiAdbs3H54J97nWY8NNnGnoplLEQ7uNXb4AqlZsBs96BwdOvM0yAnJSWgFD
 
 Dork: intitle:"disclosure policy" inurl:security
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dintitle%253A%2522disclosure%2Bpolicy%2522%2Binurl%253Asecurity%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGK7FnccGIjBlu7rl5ROoQYSBNhLDvOPS-l4MK2AzsmX6rLtOsMgIeuJM-JaBZlQz8zYYAD3JpdYyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dintitle%253A%2522disclosure%2Bpolicy%2522%2Binurl%253Asecurity%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGKrooscGIjAc_JGCYTTEbwErXKQmT_ifCwvE-M2kxcHoArb_QlVkXWxhCIE4gASpy7gYraRQbxgyAnJSWgFD
 
 Dork: intitle:"coordinated vulnerability disclosure"
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dintitle%253A%2522coordinated%2Bvulnerability%2Bdisclosure%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGK_FnccGIjAJksTgD4iPYgkQaQiYh0VgWlJTumLNGuA5DGfh94suKPcogTmekhqJwWevFckvvcwyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dintitle%253A%2522coordinated%2Bvulnerability%2Bdisclosure%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGKvooscGIjBi5_yPR3E6ipw6Xl01BzQFKo_0ZiKOOhDTYtcF5QMYSfUtQuT1Yr3CyHkJ0ycgSiQyAnJSWgFD
 
 Dork: "bug bounty" site:.gov
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522bug%2Bbounty%2522%2Bsite%253A.gov%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGK_FnccGIjBt12tidIMqKhO58tuAADTkWvFSph764-V_TlCsIQE_JVD1bp37fSkk_G0MdWA2uxkyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522bug%2Bbounty%2522%2Bsite%253A.gov%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGKvooscGIjD0b-xrobWRjdAessFrvyTB3BXv_CUFvDLYLcSi2VTNdl6XSxlNgQ_NNUilFZo2zFgyAnJSWgFD
 
 Dork: "bug bounty" site:.mil
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522bug%2Bbounty%2522%2Bsite%253A.mil%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLDFnccGIjDkzwhvGZQG4xQv2uSRd69F07XECZzUt_IoyUpQye3VUk3HoR2ZP2bH-sYOMgPBgVAyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522bug%2Bbounty%2522%2Bsite%253A.mil%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGKzooscGIjDVGO2Q2J77ruPhPd_ki2Ic72Zdk4U2Q3MDhT6jzRvKCn5nNtzHnhdA68ZxcosQuDQyAnJSWgFD
 
 Dork: "bug bounty" site:.edu
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522bug%2Bbounty%2522%2Bsite%253A.edu%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLDFnccGIjBP3qj-c9J49z2PsGPSXSh6n-nIPFheANlj41g8mgGwFaxsjRjKEcUhTR4-pbLFHBIyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522bug%2Bbounty%2522%2Bsite%253A.edu%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGKzooscGIjBfF_C0Xh9UVVZ4DU2wVcTNa9gkWo66okNu8spf1D3994B3P859ZWJXHRyxdyj_Gd8yAnJSWgFD
 
 Dork: "bug bounty program" intitle:security
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522bug%2Bbounty%2Bprogram%2522%2Bintitle%253Asecurity%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLHFnccGIjB9U66_AKIF3phHK7jNEUoocF0p1H7qAHRF7QazfJsN1RLdtVlHNH1HvhaC6puDN6wyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522bug%2Bbounty%2Bprogram%2522%2Bintitle%253Asecurity%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGKzooscGIjAJvNXhAqgjoMkYI3gMfSmUB0WcWw72CpPSu2rHj2yJkYw5zpTA8LI6DSzfO21e6dAyAnJSWgFD
 
 Dork: "bug bounty program" inurl:security
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522bug%2Bbounty%2Bprogram%2522%2Binurl%253Asecurity%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLHFnccGIjAS01U66Fb1u4p4sSMH_IeRIwgmo1y15Upb470rXV5we-6Dlu-tZdh1jxvUxi_KYAsyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522bug%2Bbounty%2Bprogram%2522%2Binurl%253Asecurity%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGK3ooscGIjB4CIuI7aunsY5CdfWP5yc9HwmnAQyZ6UTcgAORLXm77SfDAZgPUvyAUq4lSOU_2GcyAnJSWgFD
 
 Dork: "bug bounty reward"
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522bug%2Bbounty%2Breward%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLLFnccGIjCddFEu9Rwz1gTbH9fSKO1b6Q3rjAoIOQbUYmogX0f8lsnnl_OUMhhpoDa1tWSEV38yAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522bug%2Bbounty%2Breward%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGK3ooscGIjBJJTzp19ju36i1k3XklpsftrlosyWv1OXv4KTen6bWVLdAiBDc-YSmUaFvOGJMqigyAnJSWgFD
 
 Dork: "report a vulnerability" "bug bounty"
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522report%2Ba%2Bvulnerability%2522%2B%2522bug%2Bbounty%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLLFnccGIjBkvEzLmmYEBp4U9WeozX-DHPvsOxz-ceorwZE9BNfqh5L84Mbr-Ev3ZXdL7-mf1p0yAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522report%2Ba%2Bvulnerability%2522%2B%2522bug%2Bbounty%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGK7ooscGIjAiatmTkmvPlLKLPmUz6zAQ98wBE6acdqqJjpPTLwFuzQ9fNbtEPvYfDHdQ5l7cqCIyAnJSWgFD
 
 Dork: "found a security vulnerability" "bug bounty"
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522found%2Ba%2Bsecurity%2Bvulnerability%2522%2B%2522bug%2Bbounty%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLPFnccGIjCzZD3GRFrMe_uUjWUNNxutVq574EB5xehvxlq0DnxxpSZl1NqSOprNn_NF6fXIJWkyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522found%2Ba%2Bsecurity%2Bvulnerability%2522%2B%2522bug%2Bbounty%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGK7ooscGIjBK6m8yOwSdbXQ-g3U2U-Rk-RXRsDPAv1ZzKHJ-RjnMU5hxXwa-5kiu53eCap7JaR0yAnJSWgFD
 
 Dork: "report security issue" "responsible disclosure"
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522report%2Bsecurity%2Bissue%2522%2B%2522responsible%2Bdisclosure%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLPFnccGIjBFUlMHFEo6NEb7jxS7UbLUIsN5ZWEaBRpO_G7YQaW-K5wQjWf5o3Xw76f9wt9YqiIyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522report%2Bsecurity%2Bissue%2522%2B%2522responsible%2Bdisclosure%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGK7ooscGIjAT0osu3x02cD-6lc_Md4x_kAOWzNbU7dxG0NhpYoY98J3UFCHBCTNys5rmEHK0dSAyAnJSWgFD
 
 Dork: "security vulnerability" "responsible disclosure"
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522security%2Bvulnerability%2522%2B%2522responsible%2Bdisclosure%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLPFnccGIjDXVvukZpUeSr0IGbtpMo2N216obb3vLR-Fm3VApEBsXZX264vgOU5zQ1MYGs9DGP8yAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522security%2Bvulnerability%2522%2B%2522responsible%2Bdisclosure%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGK_ooscGIjBUIAyCysyisR0Q2gn8Z56JF5H09Vl9eakVoVXXLcXdTgqd0XKtGhrxT8HZYnk1K-syAnJSWgFD
 
 Dork: "coordinated vulnerability disclosure" site:.com
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522coordinated%2Bvulnerability%2Bdisclosure%2522%2Bsite%253A.com%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLTFnccGIjCl_ZFnnsddAb0vt4ALhqSz6Wt2HndQD2FSdqUbktotyl8QWCT1CVPGQF7h-fL_B9MyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522coordinated%2Bvulnerability%2Bdisclosure%2522%2Bsite%253A.com%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGK_ooscGIjDxXd9JFlRLLBXzLvm8tTpBqnWj1nWUs7mpyOEu3oQdBrfPs7X8dCi5K550SOP3AREyAnJSWgFD
 
 Dork: "safe harbor" "bug bounty"
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522safe%2Bharbor%2522%2B%2522bug%2Bbounty%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLTFnccGIjBhOeYjNsJ-LhbshJb83iBv908tKW3AKUENrhPH5Wc1BNMCEo6CV0nVB2SYDqIrpJcyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522safe%2Bharbor%2522%2B%2522bug%2Bbounty%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLDooscGIjCywFz_ckx0kVVaWpWZAY-JsQIy8CF20cYcb8M8xxfxL8JgYSCPJFjchSLWbjJ0dugyAnJSWgFD
 
 Dork: "safe harbor" "vulnerability disclosure"
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522safe%2Bharbor%2522%2B%2522vulnerability%2Bdisclosure%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLXFnccGIjDy1AM9dfa9XukZ-whCP4y0SzxorKUCu95y4xRPiX8RTWTvJmFHxqUNIZAPWWhzp3gyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522safe%2Bharbor%2522%2B%2522vulnerability%2Bdisclosure%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLDooscGIjCq5cZrcoidadX5Xwc3OM-FXHmjoAzXodG-qdz5bX3gzHmw55As6BorErRMTLtvf1IyAnJSWgFD
 
 Dork: inurl:/thanks
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dinurl%253A%252Fthanks%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLXFnccGIjCGAJpoRhPyQq7h2Npv9LkrxKW3nScJ2dh3JGUYmNKBfLkX80bXEqu28fwHtwyWNfYyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dinurl%253A%252Fthanks%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLHooscGIjBSg2P0-_NQgfnUOZonupfawhUMupJBrU_4ahb7HaPxOmzanUClfNcX2C_tnNh_OJ8yAnJSWgFD
 
 Dork: inurl:/security-thanks
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dinurl%253A%252Fsecurity-thanks%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLXFnccGIjCFXvd9ysmjxc6JGh3DMMera797YaW0eim1m-VsUnKP1U0-R3n2U3SW4hd_EJLpYtMyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dinurl%253A%252Fsecurity-thanks%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLHooscGIjBY9BHnu3DKGEz_ak_oEPFCR2v435SJNStHnipEBmDzHLmo1Ak6JntnJ8wHebtpxJMyAnJSWgFD
 
 Dork: inurl:/security/thanks
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dinurl%253A%252Fsecurity%252Fthanks%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLbFnccGIjAmtRl0gYrn78b6T_QfY6N11bnAHSBhlFJCmTFd_BHGPSMXH99s01Y3_UM1LUKDF3oyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dinurl%253A%252Fsecurity%252Fthanks%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLHooscGIjC_zH7UPH8NKTTcaHZdSSF_bb8-sds4lXdwkbexdZC0TN5xK4OLDG2vEjpBLPj7OLUyAnJSWgFD
 
 Dork: inurl:/credits
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dinurl%253A%252Fcredits%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLbFnccGIjCRbppIiyApdOIcPwthGXt0knrIT8mrZDpqL0r64lkBGVmvKYzq5OMqePrTY7U5CMYyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dinurl%253A%252Fcredits%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLLooscGIjAFw7j6DP8tAjPUiss1yV1fpmHLTi5urgkz3hy8MZX4oJS5PTQ44LGSxbFR3WBtHkgyAnJSWgFD
 
 Dork: inurl:/security-credits
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dinurl%253A%252Fsecurity-credits%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLfFnccGIjBzaet6NMuLsXwQadp5_i7nS2EMmwc8NPzTRBX22g72YCcXizoEH1CME-QOijbX5DkyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dinurl%253A%252Fsecurity-credits%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLLooscGIjBn9cnek3P9fybP_SGCabmme20ibHqRZOV1LOG_GL2VkXL5wICzYyug0wZXt5ikN84yAnJSWgFD
 
 Dork: "security researcher acknowledgements"
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522security%2Bresearcher%2Backnowledgements%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLfFnccGIjDp0Dd2qPngjx-XlVBgsigue255CnVqdLSpNovmsWKDcImYFdLH9G8Zi82wk93jKfEyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522security%2Bresearcher%2Backnowledgements%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLPooscGIjAra6qT7iiwnIHNmQM0QE4JEtQbMGxO5KSYnXMoYUSWCGlUDAR_xrL7B7Nf12K5iLwyAnJSWgFD
 
 Dork: "bug bounty acknowledgements"
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522bug%2Bbounty%2Backnowledgements%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLfFnccGIjDc5oKoXeDtB89DBIiRBmdzHGYA3BWAm4F9Q4td69KC4syHC9A6AptGfzalGvGwAsoyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522bug%2Bbounty%2Backnowledgements%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLPooscGIjAmEgfY1WTzCjQ_n6J1n2NSl9_dQ2bMn5nG6kFMdnIjs-Vfrvsb0nC-CUvBHJZ2A98yAnJSWgFD
 
 Dork: "we would like to thank the following researchers"
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522we%2Bwould%2Blike%2Bto%2Bthank%2Bthe%2Bfollowing%2Bresearchers%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLjFnccGIjDfp65JK1PBMq5MQzTnSDNepxzeYnUEj3XvAWg01HHPYpzuiiOOi4XWyjoTTfOX4kwyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522we%2Bwould%2Blike%2Bto%2Bthank%2Bthe%2Bfollowing%2Bresearchers%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLPooscGIjDxF2vpeSQEzriVuf-2HmFAKbAyc5-9JoYoRr1fxk-jIV-_ZecLnPz-CK5J1vLj_34yAnJSWgFD
 
 Dork: inurl:/report-a-vulnerability
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dinurl%253A%252Freport-a-vulnerability%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLjFnccGIjD2csmy90LjfEl4ACfGpbsNcbwhFq_Wr3STWZmx7zH1lfV4-P6V_RSaWM7ZavRYRroyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dinurl%253A%252Freport-a-vulnerability%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLTooscGIjDG2DkeDgM13P0_Lrxmq7nBbcoGb1cWAvpOP1YF1u36hOXLKj6SjGIgiwqgph1f-6cyAnJSWgFD
 
 Dork: inurl:/report-vulnerability
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dinurl%253A%252Freport-vulnerability%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLnFnccGIjBpqPVPaNLN8Qiaqd9_tGeYu4Ocb9iwGCeENU6VF3s71_IZAz9WHZlAxVgSf7qBTdwyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dinurl%253A%252Freport-vulnerability%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLTooscGIjB3q7d-CC_lmaum4rwDp3vylhe68TJjEps_So5kMWyuI8nV4Dvlwuy8j5RR2hugzXkyAnJSWgFD
 
 Dork: inurl:/report-security-issue
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dinurl%253A%252Freport-security-issue%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLnFnccGIjDZudETAu9blD9hkf5Z1ImkWWS89jELRRyVF9_LxidLY4ZrshG26Z5PKzrx3qhCYDEyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dinurl%253A%252Freport-security-issue%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLXooscGIjCa-T82pPWxfOynYEwg3RPw6Mko_e1Sg5gOhZxZ3fE4wWVXneohUbWaQYwG730dGOIyAnJSWgFD
 
 Dork: inurl:/security-issue-report
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dinurl%253A%252Fsecurity-issue-report%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLrFnccGIjDGkQWHG_EApj2jNiBeHyhHnyuIcK_O1hQ8Win2dhgAiwJdCjz8_sQeVPNn137UR4UyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dinurl%253A%252Fsecurity-issue-report%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLXooscGIjC4_tNBHNa3KK9_EwAs_FQ6bDVAO-X8JVeeK1JdJKEvFYPjcGJOZhUsPYB9cNV_2RkyAnJSWgFD
 
 Dork: inurl:/security-report
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dinurl%253A%252Fsecurity-report%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLrFnccGIjBwFy2ugutA68ZdaLBS3SbArHfK5eYXxVtGeDB8Y6yIQZh2e54KRi1F5fiW6sJJyX4yAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dinurl%253A%252Fsecurity-report%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLbooscGIjCeJPbFmjvH1O4dz3ymwzAx2W9u8M1cABoG2NHOZAEn15UeimwyPPXADn4Nu34fwxMyAnJSWgFD
 
 Dork: intitle:"report a vulnerability"
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dintitle%253A%2522report%2Ba%2Bvulnerability%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLrFnccGIjBE1UToPs7Ut-vau7lQ1fYsV71w7TBlymAQewHyYcNLJ3fQ2U1NObUeGG-uIUu6JOgyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dintitle%253A%2522report%2Ba%2Bvulnerability%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLbooscGIjDg-jLeRV-Hl7EV6QP7j-pAn-9upj2tm3JWfuFfrxxbhfFZCHHy4UEoJ92clwgbBz4yAnJSWgFD
 
 Dork: intitle:"report security vulnerability"
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dintitle%253A%2522report%2Bsecurity%2Bvulnerability%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLvFnccGIjAGgDSCwjeSV3Owmkaae65Dmdr7bA5rTC6xXqNQc4oRV-YtWY0_-xMLx4nrP8ZLbfEyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dintitle%253A%2522report%2Bsecurity%2Bvulnerability%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLfooscGIjAyi5JLl0VyF2cyKAFiuU32pqxDyr3T0fDVlb7TSg3gipLNi5oicFs-VZLwSsJbplgyAnJSWgFD
 
 Dork: intitle:"report a security issue"
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dintitle%253A%2522report%2Ba%2Bsecurity%2Bissue%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLvFnccGIjBSQ1E-6Pe8iTaPiLRgkzoQG6H196rwnV6h7NTJ44Bg-fsX_495cUjz4wKz91nC1D4yAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dintitle%253A%2522report%2Ba%2Bsecurity%2Bissue%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLfooscGIjDfHybYIw_f_Hukph87zU0wpWQDClyqhdkUdGTIX64dYsyb487PembUBvsrRMLd1ekyAnJSWgFD
 
 Dork: filetype:txt "bug bounty"
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dfiletype%253Atxt%2B%2522bug%2Bbounty%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLzFnccGIjDxQqlwjL3SGylxXgA_4HeNQZ7BAi6VoGNpJF4fvRwpxKgpimyvnoBo3uSshswLSpwyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dfiletype%253Atxt%2B%2522bug%2Bbounty%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLfooscGIjAEefv8pODDJr3zGCWjuLO0-B4NaxnxWZrPUaS7YEQkDtzFhFZjiHuSqQM3eu-p9R8yAnJSWgFD
 
 Dork: filetype:txt "responsible disclosure"
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dfiletype%253Atxt%2B%2522responsible%2Bdisclosure%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLzFnccGIjBT_fWIfMcrto9Q3OdmJFsLfY1mrzYLqM3k_g6d5-zxLApNcUk1NgRPnPvfduHUv78yAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dfiletype%253Atxt%2B%2522responsible%2Bdisclosure%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLjooscGIjAiUG_Iny3xdp8_WtjOWNRxW6flwmrKiw6SV_Pm8bSH8h4GUm0um0VdLAa3Vsy2HpYyAnJSWgFD
 
 Dork: filetype:txt "vulnerability disclosure"
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dfiletype%253Atxt%2B%2522vulnerability%2Bdisclosure%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGLzFnccGIjBHcx7smgIQWiC_1HbArIvnozfB1WXD8mzzTIUS8LzxlzUWbho1T8Y2VW6sLr1uibcyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dfiletype%253Atxt%2B%2522vulnerability%2Bdisclosure%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLjooscGIjDlHk6Q4Kbj1vb85PPMZxfKuIKaLGxq1j4lBX3vp9tetrgINjfxXWODuZ4Xx4Rc7EEyAnJSWgFD
 
 Dork: filetype:txt "hall of fame"
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dfiletype%253Atxt%2B%2522hall%2Bof%2Bfame%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGL3FnccGIjDJ98aLoSUrNs3g4vihTLMWhKEtgUPbBKvMnZ7OaB1ZbjoHgt-ZZpZORGKAmTl-NY0yAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dfiletype%253Atxt%2B%2522hall%2Bof%2Bfame%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLnooscGIjBJVse-96yDdQgof8f6NPZLuL6zi0CDXLi292tOsBFi9RY8izvQ8gixFMaun8W06ucyAnJSWgFD
 
 Dork: filetype:txt "coordinated vulnerability disclosure"
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dfiletype%253Atxt%2B%2522coordinated%2Bvulnerability%2Bdisclosure%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGL3FnccGIjDzM_ReiPfMKKzXhdvmmkEX2Kgt3_wrGBfaKUm4O8DCuZEOYZ7vekFJN5FEM8LAmJgyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dfiletype%253Atxt%2B%2522coordinated%2Bvulnerability%2Bdisclosure%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLnooscGIjDbq6qcr8-U6E4c211cJBMHEaomOIOjmiaZQKJLEIFT1BErL_lrroBUxXZxi08TdO8yAnJSWgFD
 
 Dork: "report a bug" "security team"
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522report%2Ba%2Bbug%2522%2B%2522security%2Bteam%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGL3FnccGIjB025vM34Yr4_OA2W-KacrqJn2rHDfJhssXqOTAdwSx8Gn5-RHS_Z0g5jjfhLttyF8yAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522report%2Ba%2Bbug%2522%2B%2522security%2Bteam%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLnooscGIjAD3cHyEiJtf7jet-uYs1ElbKwDW1pBFRkaUZJet2DJec5vWnFDTopgbBalYQRuzN4yAnJSWgFD
 
 Dork: "report a bug" "vulnerability disclosure"
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522report%2Ba%2Bbug%2522%2B%2522vulnerability%2Bdisclosure%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGL7FnccGIjA9yt3l8un0gIw5y-kDvdMvuqMHfD2-6cxzh0qpQ5-jI8p1uHZPUzNmzSvkBwm-0pwyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522report%2Ba%2Bbug%2522%2B%2522vulnerability%2Bdisclosure%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLrooscGIjAwQM37y_B-ryhUPbHVJyD6tY3_pP_l68z-XHPaPKTPyif1p6KNTsLNi9FJGy_rZScyAnJSWgFD
 
 Dork: "report a bug" "bug bounty"
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522report%2Ba%2Bbug%2522%2B%2522bug%2Bbounty%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGL7FnccGIjASYKzJNiPLy9mZ-Fd3V4P-_kyLain8fzcDaahkPCG9V1jU-DooZQGNYlLlLZtSNVAyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522report%2Ba%2Bbug%2522%2B%2522bug%2Bbounty%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLrooscGIjBRE7lINHl2HFwnuU4fimPiUy2AvxCSAH7Gf1l-_ZxYvYl9zRERexchNcKV4I3nDH8yAnJSWgFD
 
 Dork: "report security issue" site:.com
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522report%2Bsecurity%2Bissue%2522%2Bsite%253A.com%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGL_FnccGIjC1rJW8CkjRnK4rOmzC3OKmC7mUemYTdXDzEsXe5OOs6MYtgKfGxeU57XpMFZu_8k4yAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522report%2Bsecurity%2Bissue%2522%2Bsite%253A.com%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLrooscGIjAiNXI2WxJ2LXe64m1umI_q4Qu4lIty_PXnZNxUbEc61Jvhx9QnODNErCuq3Db8VP4yAnJSWgFD
 
 Dork: "found a vulnerability" site:.com
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522found%2Ba%2Bvulnerability%2522%2Bsite%253A.com%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGL_FnccGIjD48zCXbr18wX5YqSVVpmEYH49hBgzAoWndpZ2v2EwVTIgrB_MgJGZvXDlB-syxwyoyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522found%2Ba%2Bvulnerability%2522%2Bsite%253A.com%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLvooscGIjBEqccH6azUTj07VUTnOCzcichL6Rav2aXMBUp-Q-58ZeCm32ha7G1PvS2Cnnf1s3cyAnJSWgFD
 
 Dork: "responsible disclosure program" site:.org
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522responsible%2Bdisclosure%2Bprogram%2522%2Bsite%253A.org%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGMDFnccGIjB_KdNkFhS4PeOQnDL31WL8FQmRYhP3FgxVGf_7z3J4URbB_cqw4KnSp3p72RmKzSUyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522responsible%2Bdisclosure%2Bprogram%2522%2Bsite%253A.org%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLvooscGIjDWggfRm4Dkc_ZwEIN6_ZWv4e6LgApkGsvOM02YJ0iGAmJdDSsG9K__P9QjrYmNxLUyAnJSWgFD
 
 Dork: "security reward program"
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522security%2Breward%2Bprogram%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGMDFnccGIjBa9l-D0OiO-ZwNdczd7eFnkffAhS27-bQY2fwBRBTnIln6-mxydN5aB-2e8Lekbh8yAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522security%2Breward%2Bprogram%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLzooscGIjCkuqwG_V0xxxRk94mvCboos6ZIXRvm_6BaukxV6BKXcoGGvQIjqeoPmkzf4ykhdNsyAnJSWgFD
 
 Dork: "security researcher rewards"
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522security%2Bresearcher%2Brewards%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGMHFnccGIjAVD6EmsrGL1-S-XVm5JYc9_OzVSXfwOhXVYvu5MgIsYffnnqiIJv8zaTOCTguhSTcyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522security%2Bresearcher%2Brewards%2522%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGLzooscGIjDQ1mzufH07DouD47GnvdmuUDF_6lx7tOHnohg1heac0uyZLZCfphZ8AyLPTG4RiUsyAnJSWgFD
 
 Dork: "bug bounty" site:.io
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522bug%2Bbounty%2522%2Bsite%253A.io%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGMHFnccGIjDRizbJDw6Nh2pPALjygxa97KnE8pNRP6JvTVjmgSf1aK3kHjh1WwqJVAOO-At_B3syAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522bug%2Bbounty%2522%2Bsite%253A.io%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGL3ooscGIjDGB9yueWwmKeVfDa25WwYBRVosJ1niU0a_dy64Ff-F2vTuLGhdsO4mRWdlT2zxcUgyAnJSWgFD
 
 Dork: "bug bounty" site:.ai
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522bug%2Bbounty%2522%2Bsite%253A.ai%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGMLFnccGIjBWZvMIAY7d2G0apLA1AxFqweP9K0E0h7zsyJJXkCpVbk6sV2kQcTWClOkR9xRxnPQyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522bug%2Bbounty%2522%2Bsite%253A.ai%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGL3ooscGIjBSpiC_WKOBXOnHZ6Gm3HXIhyvJx7dpFI_39fsG5lv8eSzlB3mSx1_j7TCSOkko7IoyAnJSWgFD
 
 Dork: "bug bounty" site:.in
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522bug%2Bbounty%2522%2Bsite%253A.in%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGMLFnccGIjA_MhGhd-d0jS5FU0IQHrDgF5NRf6gnWE2CRn2-ErCMN9u47JowsYb34NpDYMBCFOYyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522bug%2Bbounty%2522%2Bsite%253A.in%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGL3ooscGIjCAoFd9WXmHy7f14sgMaIzHfC7QfrYFFB8XLX5DD60oQvlmRy5a0a2R-ENrqL6ZMgAyAnJSWgFD
 
 Dork: "bug bounty" site:.sg
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522bug%2Bbounty%2522%2Bsite%253A.sg%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGMPFnccGIjAMOvtGIMKilYn5ywp74KSuUlZg6QsZdypg9cHA-qv2NkyUrw51mcQiPxOr_7AeUREyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522bug%2Bbounty%2522%2Bsite%253A.sg%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGL7ooscGIjCKu3iullOYeeFKYXyURJA1PwgS652DaHR9PNO1zZUv23HvKPjmmGb2wvGXO-MSeKcyAnJSWgFD
 
 Dork: "bug bounty" site:.jp
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522bug%2Bbounty%2522%2Bsite%253A.jp%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGMPFnccGIjC4a6GePm2V197Z2-qHULzNo60MOBdSDJXXzuEtyCVNq8oCeaZjx8HV4V7O468i9bEyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522bug%2Bbounty%2522%2Bsite%253A.jp%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGL7ooscGIjDVa_XQi5mzfXgkGtXzm6bNBAMzmHC8p7bsmlXtu0A33JzdK0egwRHa-KvY3qvB1vcyAnJSWgFD
 
 Dork: "responsible disclosure" site:.nl
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522responsible%2Bdisclosure%2522%2Bsite%253A.nl%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGMTFnccGIjAnSE_iNUNYkO_c-kWGbJHtUPd5TW2s-mSDL6JA0_opZnXaPTTDV-v7ggzYNquuqYEyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522responsible%2Bdisclosure%2522%2Bsite%253A.nl%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGL_ooscGIjAgfW7jfZX8S0hongZwKkxXlBN1KFzExxdtDYGZk3kIb4EXIigYFdg1RxatNS14wScyAnJSWgFD
 
 Dork: "responsible disclosure" site:.de
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522responsible%2Bdisclosure%2522%2Bsite%253A.de%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGMTFnccGIjC8rOtAOFN_NIIZBgeqqy9ggHxFQ0VPrIHYlUjpya__ErbdNjEoIBwgZvVCl_fiEssyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522responsible%2Bdisclosure%2522%2Bsite%253A.de%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGL_ooscGIjCfqwudiOKgVKzDv4FwjE0Il1IfKKyN0mLqNRrtyHLASGxikQjWEalrwgCECyINIIYyAnJSWgFD
 
 Dork: "responsible disclosure" site:.fr
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522responsible%2Bdisclosure%2522%2Bsite%253A.fr%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGMXFnccGIjBQZcQ9HflIbnW70k1zbPTwB3Dzc1xakHD77pJSPHpczMsosBc57gzYtECxuAAYTp8yAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522responsible%2Bdisclosure%2522%2Bsite%253A.fr%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGL_ooscGIjAMTuH0A2akRA04fMI0c45NUx2h_-WXyO9wdt8gZv1GuVigc-O2hmaIxODfr4i3dlAyAnJSWgFD
 
 Dork: "responsible disclosure" site:.uk
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522responsible%2Bdisclosure%2522%2Bsite%253A.uk%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGMXFnccGIjChNzejsqnLp8a5QK6kU9XavP1ViQlxwFQJyMktvr40O82Z3X3_80xdj70KoQHjXucyAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522responsible%2Bdisclosure%2522%2Bsite%253A.uk%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGMDooscGIjBagP8eDl6DPRb4O5JVeA7lKpa8rQHKaCktt7Ccmm9RX5-3V3SBhf3TYjO38MfXh_gyAnJSWgFD
 
 Dork: "vulnerability disclosure" site:.au
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522vulnerability%2Bdisclosure%2522%2Bsite%253A.au%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGMbFnccGIjDc8Ib51lbEBXmdx9Y832FNQAtBj66YPAKkqfVFiWfeoKxu12bVfC3AsOWkx129kJ4yAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522vulnerability%2Bdisclosure%2522%2Bsite%253A.au%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGMHooscGIjDBDrTbWo3eSX56i1lm6Fm2DFYxJv-EpeOVcLoBQIuJfcFNKNtHXil3idzMU_5INZAyAnJSWgFD
 
 Dork: "vulnerability disclosure" site:.ca
-  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522vulnerability%2Bdisclosure%2522%2Bsite%253A.ca%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgQUbSbnGMbFnccGIjAA4kM8mlI0UNX0k-Sq3VBuJl3FAtmxBXjo1G6D2rEkh0OGb090LW438vZFPn4Q2o8yAnJSWgFD
+  Error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522vulnerability%2Bdisclosure%2522%2Bsite%253A.ca%26num%3D7%26hl%3Den%26start%3D0%26safe%3Dactive&hl=en&q=EgSRhGZmGMHooscGIjAg-FpDU0luQFy0cLYcSoB6luOjJ06nObGoy0QVDgIQbiem1vnO3UQns49cdUJlipYyAnJSWgFD
 
